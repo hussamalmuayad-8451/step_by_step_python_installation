@@ -131,9 +131,7 @@ and
     
 * If you chose to install Anaconda vs. Miniconda then you have the Anaconda Navigator.
 
-<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/stop-sign-png-27231.PNG" alt="Drawing" style="width: 40px; vertical-align:middle"/>  
-
-DO NOT OPEN JUPYTER NOTEBOOK/LAB USING ANACONDA NAVIGATOR
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/stop-sign-png-27231.png" alt="Drawing" style="width: 40px; vertical-align:middle"/> DO NOT OPEN JUPYTER NOTEBOOK/LAB USING ANACONDA NAVIGATOR
 
 <br>
 
@@ -326,7 +324,7 @@ sys.version
 * an `alias` is a command that allows you to run a another command using a keyword.   
      here's a sample for what an alias in <b>.bashrc</b> looks like    
 
-<img src="bashrc_shot.PNG" alt="Drawing" style="width: 800px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/bashrc_shot.PNG" alt="Drawing" style="width: 800px;"/>
 
 * in my command line: 
 
