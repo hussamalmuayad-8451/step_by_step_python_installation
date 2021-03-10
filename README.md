@@ -14,7 +14,7 @@ Table of Contents:
 
 
 
-#### <span color:red">A- Download the executible package</span>   
+#### <div class="text-red mb-2">A- Download the executible package</div>   
 
 You can install Python using one of two related sources    
 
@@ -25,7 +25,7 @@ Miniconda is recommended as it has a lighter footprint on the system. If you wis
 
 
 
-#### <span color:red">B- Start with the conventional installation using Python 3.X. If you use Python 2.7 It can be installed as an additional environment after the installation is complete.</span>
+#### <div class="text-red mb-2">B- Start with the conventional installation using Python 3.X. If you use Python 2.7 It can be installed as an additional environment after the installation is complete.</div>
 
 Make sure you check the box below so that Anaconda/Miniconda is added to your PATH variable and follow the prompts.
 
@@ -131,7 +131,7 @@ and
     
 * If you chose to install Anaconda vs. Miniconda then you have the Anaconda Navigator.
 
-<icon src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/stop-sign-png-27231.png"  width="40 vertical-align:middle"/> DO NOT OPEN JUPYTER NOTEBOOK/LAB USING ANACONDA NAVIGATOR
+<icon src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/stop-sign-png-27231.png"  width="40"/> DO NOT OPEN JUPYTER NOTEBOOK/LAB USING ANACONDA NAVIGATOR
 
 <br>
 
