@@ -14,7 +14,7 @@ Table of Contents:
 
 
 
-#### <span style="color:red">A- Download the executible package</span>   
+#### <span color:red">A- Download the executible package</span>   
 
 You can install Python using one of two related sources    
 
@@ -25,37 +25,37 @@ Miniconda is recommended as it has a lighter footprint on the system. If you wis
 
 
 
-#### <span style="color:red">B- Start with the conventional installation using Python 3.X. If you use Python 2.7 It can be installed as an additional environment after the installation is complete.</span>
+#### <span color:red">B- Start with the conventional installation using Python 3.X. If you use Python 2.7 It can be installed as an additional environment after the installation is complete.</span>
 
 Make sure you check the box below so that Anaconda/Miniconda is added to your PATH variable and follow the prompts.
 
 Know where your root installation folder is, usually it is <i>C:/Users/Your_User_name/Miniconda3</i>
 
 
-<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/Python%20PATH%20Env.PNG" alt="Drawing" style="width: 500px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/Python%20PATH%20Env.PNG"  width="500"/>
 
 <br>
 
-<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/add%20to%20path%20variable.PNG" alt="Drawing" style="width: 500px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/add%20to%20path%20variable.PNG"  width="500"/>
 
 &nbsp;
 
-#### <span style="color:red">C- Pin the Anaconda prompt to taskbar and start is using <u>Run as administrator</u></span>
+#### <span color:red">C- Pin the Anaconda prompt to taskbar and start is using <u>Run as administrator</u></span>
 
 Make this easily accessible as you'll be using it everytime you need to start jupyter  
 
 <u>Going forward always run anaconda prompt as an administrator</u>
 
-<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/running_anaconda_prompt_asadmin.PNG" alt="Drawing" style="width: 500px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/running_anaconda_prompt_asadmin.PNG"  width="500"/>
 
 &nbsp;
 
 
-#### <span style="color:red">D- Checking conda environments</span>
+#### <span color:red">D- Checking conda environments</span>
  run the following command,
  `conda info --envs`
 
-<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/conda_info_envs.PNG" alt="Drawing" style="width: 400px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/conda_info_envs.PNG"  width="400"/>
 
  you should have a single environment after the new fresh install `(base)`
  
@@ -64,7 +64,7 @@ Make this easily accessible as you'll be using it everytime you need to start ju
 
 
 
-#### <span style="color:red">E- Creating a new environment</span>
+#### <span color:red">E- Creating a new environment</span>
 You can certainly use the _base_ enviornment, but if _base_ gets corrupt that becomes a problem.   
 It is recommended that you create your own enviornment following the steps below:   
     
@@ -77,7 +77,7 @@ the name `py38` can be anything of your choice, this is the name of the new envi
 &nbsp;
 
 
-<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/conda_create_n.PNG" alt="Drawing" style="width: 600px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/conda_create_n.PNG"  width="600"/>
 
 activate the new environment by running the command: 
 
@@ -88,13 +88,13 @@ You'll need to switch to this environment everytime you start the Anaconda promp
 &nbsp;
 
 
-<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/activate_new_env.PNG" alt="Drawing" style="width: 600px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/activate_new_env.PNG"  width="600"/>
 
 notice that the prefix now changes form `(base)` to `py37` or `py38`
 
 &nbsp;
 
-#### <span style="color:red">F -Updating and installing new packages</span>
+#### <span color:red">F -Updating and installing new packages</span>
     
 * You can install new packages to your python using two commands `pip` or `conda` indicating which repository you are downloading the packages from. 
 
@@ -108,7 +108,7 @@ for pip:
 for conda:
 `conda list`
 
-<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/pip_list_conda_list.PNG" alt="Drawing" style="width: 500px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/pip_list_conda_list.PNG"  width="500"/>
 
 * <u>updating pip</u>: someitimes pip may not be updated to the very latest version, you may use one of these two commands to update pip itself 
    
@@ -127,11 +127,11 @@ and
 &nbsp;
 
 
-#### <span style="color:red">G- The correct way to start jupyter notebook or jupyter lab</span>
+#### <span color:red">G- The correct way to start jupyter notebook or jupyter lab</span>
     
 * If you chose to install Anaconda vs. Miniconda then you have the Anaconda Navigator.
 
-<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/stop-sign-png-27231.png" alt="Drawing" style="width: 40px; vertical-align:middle"/> DO NOT OPEN JUPYTER NOTEBOOK/LAB USING ANACONDA NAVIGATOR
+<icon src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/stop-sign-png-27231.png"  width="40 vertical-align:middle"/> DO NOT OPEN JUPYTER NOTEBOOK/LAB USING ANACONDA NAVIGATOR
 
 <br>
 
@@ -139,7 +139,7 @@ and
 
 * the ideal way to start jupyter is to navigate to the folder where your project is using the Anaconda prompt (command line) and then starting jupyter notebook or jupyter lab as such
 
-<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/open%20jupyter%2002.JPG" alt="Drawing" style="width: 900px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/open%20jupyter%2002.JPG"  width="900"/>
 
 &nbsp;
 
@@ -162,19 +162,19 @@ Python is more stable when installed on Linux then when installed on Windows. Fo
 * 1-	Search for <b>Turn Windows features on or off</b> in your start menu and when it comes up click it 
 
 
-<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/turn_on_windows_.jpg" alt="Drawing" style="width: 500px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/turn_on_windows_.jpg"  width="500"/>
 
 * 2-	Check the box for    <b>Windows Subsystem for Linux</b> 
 
-<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/activate_WSL.PNG" alt="Drawing" style="width: 500px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/activate_WSL.PNG"  width="500"/>
 
 * 3- Open the Microsoft Store and search for your favorite Linux distro
 
-<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/search_for_linux.jpg" alt="Drawing" style="width: 500px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/search_for_linux.jpg"  width="500"/>
 
 * click the <b>get</b> button
 
-<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/finding_linux.jpg" alt="Drawing" style="width: 500px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/finding_linux.jpg"  width="500"/>
 
 Follow the prompts for the linux installation, you'll be prompted to set your username and password   
 
@@ -186,7 +186,7 @@ check the weather too while you're at it
 
 `curl wttr.in/chicago`   
 
-<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/checking_shell.png" alt="Drawing" style="width: 800px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/checking_shell.png"  width="800"/>
 
 welcome to shell
 
@@ -197,7 +197,7 @@ to access your local drives, aka `C:/` `D:/` etc you need to change director int
 &nbsp;
 
 
-<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/location_of_local_drives.PNG" alt="Drawing" style="width: 800px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/location_of_local_drives.PNG"  width="800"/>
 
 
 to make these easily accessible create aliases in your `~/.bashrc` file that will point to `/mnt/c` or `/mnt/d`
@@ -210,7 +210,7 @@ The link recomended above for [Miniconda](https://docs.conda.io/en/latest/minico
 
 * 1- download the shell file `Miniconda3-latest-Linux-x86_64.sh`
 
-<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/miniconda3_linux.PNG" alt="Drawing" style="width: 800px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/miniconda3_linux.PNG"  width="800"/>
 
 * 2- navigate to the location of `Miniconda3-latest-Linux-x86_64.sh` and run the command   
 
@@ -218,7 +218,7 @@ The link recomended above for [Miniconda](https://docs.conda.io/en/latest/minico
 
 follow the prompts until the installation is concluded and you're back to your open command prompt. 
 
-<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/minionda3_shell_install.PNG" alt="Drawing" style="width: 800px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/minionda3_shell_install.PNG"  width="800"/>
 
 * create a new environment:
     
@@ -247,7 +247,7 @@ or
 
 &nbsp;
 
-<b><span style="color:blue">1- Installing python packages on a work computer</span></b>
+<b><span color:blue">1- Installing python packages on a work computer</span></b>
 
 If you are using a work laptop you may need to use some additional syntax to get across firewalls and security. 
 
@@ -262,7 +262,7 @@ for pip which installs from pypi.org repository you may need one or all of the f
 
 &nbsp;
 
-<b><span style="color:blue">2- setting up an environment with a different version of python</span></b>
+<b><span color:blue">2- setting up an environment with a different version of python</span></b>
 
 you might needs to setup a python environemtn with python3.5 needed for work or for a special project, you can specify the version of python as such:
 
@@ -277,7 +277,7 @@ the support for python2.7 will cease on Jan-1-2020.
 
 &nbsp;
 
-<b><span style="color:blue">3- checking the version of your installations</span></b>
+<b><span color:blue">3- checking the version of your installations</span></b>
 
 run the following two commands:
 
@@ -309,7 +309,7 @@ sys.version
 
 &nbsp;
 
-<b><span style="color:blue">4- modifying Linux `~/.bashrc` file</span></b>
+<b><span color:blue">4- modifying Linux `~/.bashrc` file</span></b>
 
 * <b>.bashrc</b> is a hidden file that lives in your home directory     
 * this is the first shell script that gets executed whenever you start your shell window    
@@ -324,7 +324,7 @@ sys.version
 * an `alias` is a command that allows you to run a another command using a keyword.   
      here's a sample for what an alias in <b>.bashrc</b> looks like    
 
-<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/bashrc_shot.PNG" alt="Drawing" style="width: 800px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/bashrc_shot.PNG"  width="800"/>
 
 * in my command line: 
 
@@ -333,7 +333,7 @@ x ENTER executes `cd /mnt/x`
 
 &nbsp;
 
-<b><span style="color:blue">5- famous packages to install</span></b>
+<b><span color:blue">5- famous packages to install</span></b>
 
 we are going to need these packages in our class   
 
@@ -341,22 +341,22 @@ we are going to need these packages in our class
 
 in linue the pipe operator `|` takes the output from the left side of the argument and pipes it as an input to the right side     
 
-`echo y | conda install -c anaconda pandas` respones with `y` to the prompt question `proceed [y/n]` and automatically carried out the installation. 
+`echo y | conda install -c conda-forge pandas` respones with `y` to the prompt question `proceed [y/n]` and automatically carried out the installation. 
 
 &nbsp;
 
 
 
-`echo y | conda install -c anaconda pandas`   
-`echo y | conda install -c anaconda numpy`   
-`echo y | conda install -c anaconda scikit-learn`    
-`echo y | conda install -c anaconda statsmodels`  
-`echo y | conda install -c anaconda matplotlib`   
-`echo y | conda install -c anaconda seaborn`
+`echo y | conda install -c conda-forge pandas`   
+`echo y | conda install -c conda-forge numpy`   
+`echo y | conda install -c conda-forge scikit-learn`    
+`echo y | conda install -c conda-forge statsmodels`  
+`echo y | conda install -c conda-forge matplotlib`   
+`echo y | conda install -c conda-forge seaborn`
 
 &nbsp;
 
 modules that are problematic on Windows but run with no issues on Mac or Linux  
 
-`conda install -c anaconda pydot`   
-`conda install -c anaconda graphviz`   
+`conda install -c conda-forge pydot`   
+`conda install -c conda-forge graphviz`   
