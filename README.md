@@ -10,13 +10,12 @@ Table of Contents:
 &nbsp;
 
 <a id='1'></a>
-## 1- <u>Installing Python on Native Windows:</u>
+<h2>1- <u>Installing Python on Native Windows:</u></h2>
 
 
 
-<div class="text-red mb-2">
-    <h4>A- Download the executible package</h3>
-</div>   
+<h4>A- Download the executible package</h4>
+ 
 
 You can install Python using one of two related sources    
 
@@ -27,7 +26,9 @@ Miniconda is recommended as it has a lighter footprint on the system. If you wis
 
 
 
-#### <div class="text-red mb-2">B- Start with the conventional installation using Python 3.X. If you use Python 2.7 It can be installed as an additional environment after the installation is complete.</div>
+
+<h4>B- Start with the conventional installation using Python 3.X. If you use Python 2.7 It can be installed as an additional environment after the installation is complete.</h4>
+
 
 Make sure you check the box below so that Anaconda/Miniconda is added to your PATH variable and follow the prompts.
 
@@ -42,7 +43,7 @@ Know where your root installation folder is, usually it is <i>C:/Users/Your_User
 
 &nbsp;
 
-#### <span color:red">C- Pin the Anaconda prompt to taskbar and start is using <u>Run as administrator</u></span>
+<h4>C- Pin the Anaconda prompt to taskbar and start is using <u>Run as administrator</u></h4>
 
 Make this easily accessible as you'll be using it everytime you need to start jupyter  
 
@@ -53,7 +54,7 @@ Make this easily accessible as you'll be using it everytime you need to start ju
 &nbsp;
 
 
-#### <span color:red">D- Checking conda environments</span>
+<h4>D- Checking conda environments</h4>
  run the following command,
  `conda info --envs`
 
@@ -66,7 +67,7 @@ Make this easily accessible as you'll be using it everytime you need to start ju
 
 
 
-#### <span color:red">E- Creating a new environment</span>
+<h4>E- Creating a new environment</h4>
 You can certainly use the _base_ enviornment, but if _base_ gets corrupt that becomes a problem.   
 It is recommended that you create your own enviornment following the steps below:   
     
@@ -96,7 +97,7 @@ notice that the prefix now changes form `(base)` to `py37` or `py38`
 
 &nbsp;
 
-#### <span color:red">F -Updating and installing new packages</span>
+<h4>F -Updating and installing new packages</h4>
     
 * You can install new packages to your python using two commands `pip` or `conda` indicating which repository you are downloading the packages from. 
 
@@ -129,7 +130,7 @@ and
 &nbsp;
 
 
-#### <span color:red">G- The correct way to start jupyter notebook or jupyter lab</span>
+<h4>G- The correct way to start jupyter notebook or jupyter lab</h4>
     
 * If you chose to install Anaconda vs. Miniconda then you have the Anaconda Navigator.
 
@@ -151,7 +152,7 @@ and
 
 &nbsp;
 <a id='2'></a>
-## <u>2- Installing Python on Windows Linux using WLS: (THE BEST OPTION)</u>
+<h2><u>2- Installing Python on Windows Linux using WLS: (THE BEST OPTION)</u></h2>
 
 Windows 10 allows users to install a full version Linux Bash on a windows machine. This is referred to as WLS (Windows Linux Subsystem).   
 
@@ -159,7 +160,7 @@ Python is more stable when installed on Linux then when installed on Windows. Fo
 
 &nbsp;
 
-### A. Installing WLS on Windows 
+<h3>A. Installing WLS on Windows </h3>
 
 * 1-	Search for <b>Turn Windows features on or off</b> in your start menu and when it comes up click it 
 
@@ -206,7 +207,7 @@ to make these easily accessible create aliases in your `~/.bashrc` file that wil
 
 &nbsp;
 
-### B. Installing Miniconda Python on WSL
+<h3>B. Installing Miniconda Python on WSL</h3>
 
 The link recomended above for [Miniconda](https://docs.conda.io/en/latest/miniconda.html) condains the Linux installers   
 
@@ -245,11 +246,11 @@ or
 
 &nbsp;
 <a id='3'></a>
-## <u>3- Appendix</u>
+<h2><u>3- Appendix</u></h2>
 
 &nbsp;
 
-<b><span color:blue">1- Installing python packages on a work computer</span></b>
+<b>1- Installing python packages on a work computer</b>
 
 If you are using a work laptop you may need to use some additional syntax to get across firewalls and security. 
 
@@ -264,7 +265,7 @@ for pip which installs from pypi.org repository you may need one or all of the f
 
 &nbsp;
 
-<b><span color:blue">2- setting up an environment with a different version of python</span></b>
+<b>2- setting up an environment with a different version of python</b>
 
 you might needs to setup a python environemtn with python3.5 needed for work or for a special project, you can specify the version of python as such:
 
@@ -279,7 +280,7 @@ the support for python2.7 will cease on Jan-1-2020.
 
 &nbsp;
 
-<b><span color:blue">3- checking the version of your installations</span></b>
+<b>3- checking the version of your installations</b>
 
 run the following two commands:
 
@@ -311,7 +312,7 @@ sys.version
 
 &nbsp;
 
-<b><span color:blue">4- modifying Linux `~/.bashrc` file</span></b>
+<b>4- modifying Linux `~/.bashrc` file</b>
 
 * <b>.bashrc</b> is a hidden file that lives in your home directory     
 * this is the first shell script that gets executed whenever you start your shell window    
@@ -335,7 +336,7 @@ x ENTER executes `cd /mnt/x`
 
 &nbsp;
 
-<b><span color:blue">5- famous packages to install</span></b>
+<b>5- famous packages to install</b>
 
 we are going to need these packages in our class   
 
