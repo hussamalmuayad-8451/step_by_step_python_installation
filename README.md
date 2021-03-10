@@ -32,7 +32,7 @@ Make sure you check the box below so that Anaconda/Miniconda is added to your PA
 Know where your root installation folder is, usually it is <i>C:/Users/Your_User_name/Miniconda3</i>
 
 
-<img src="Python PATH Env.PNG" alt="Drawing" style="width: 500px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/Python%20PATH%20Env.PNG" alt="Drawing" style="width: 500px;"/>
 
 <img src="add to path variable.PNG" alt="Drawing" style="width: 500px;"/>
 
