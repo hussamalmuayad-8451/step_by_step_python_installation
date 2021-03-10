@@ -134,7 +134,7 @@ and
     
 * If you chose to install Anaconda vs. Miniconda then you have the Anaconda Navigator.
 
-<icon src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/stop-sign-png-27231.png"  width="40"/> DO NOT OPEN JUPYTER NOTEBOOK/LAB USING ANACONDA NAVIGATOR
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/stop-sign-png-27231.png"  width="40"/> DO NOT OPEN JUPYTER NOTEBOOK/LAB USING ANACONDA NAVIGATOR
 
 <br>
 
