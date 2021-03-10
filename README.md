@@ -34,7 +34,9 @@ Know where your root installation folder is, usually it is <i>C:/Users/Your_User
 
 <img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/Python%20PATH%20Env.PNG" alt="Drawing" style="width: 500px;"/>
 
-<img src="add to path variable.PNG" alt="Drawing" style="width: 500px;"/>
+<br>
+
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/add%20to%20path%20variable.PNG" alt="Drawing" style="width: 500px;"/>
 
 &nbsp;
 
@@ -44,7 +46,7 @@ Make this easily accessible as you'll be using it everytime you need to start ju
 
 <u>Going forward always run anaconda prompt as an administrator</u>
 
-<img src="running_anaconda_prompt_asadmin.PNG" alt="Drawing" style="width: 500px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/running_anaconda_prompt_asadmin.PNG" alt="Drawing" style="width: 500px;"/>
 
 &nbsp;
 
@@ -53,7 +55,7 @@ Make this easily accessible as you'll be using it everytime you need to start ju
  run the following command,
  `conda info --envs`
 
-<img src="conda_info_envs.PNG" alt="Drawing" style="width: 400px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/conda_info_envs.PNG" alt="Drawing" style="width: 400px;"/>
 
  you should have a single environment after the new fresh install `(base)`
  
@@ -75,7 +77,7 @@ the name `py38` can be anything of your choice, this is the name of the new envi
 &nbsp;
 
 
-<img src="conda_create_n.PNG" alt="Drawing" style="width: 600px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/conda_create_n.PNG" alt="Drawing" style="width: 600px;"/>
 
 activate the new environment by running the command: 
 
@@ -86,7 +88,7 @@ You'll need to switch to this environment everytime you start the Anaconda promp
 &nbsp;
 
 
-<img src="activate_new_env.PNG" alt="Drawing" style="width: 600px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/activate_new_env.PNG" alt="Drawing" style="width: 600px;"/>
 
 notice that the prefix now changes form `(base)` to `py37` or `py38`
 
@@ -106,7 +108,7 @@ for pip:
 for conda:
 `conda list`
 
-<img src="pip_list_conda_list.PNG" alt="Drawing" style="width: 500px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/pip_list_conda_list.PNG" alt="Drawing" style="width: 500px;"/>
 
 * <u>updating pip</u>: someitimes pip may not be updated to the very latest version, you may use one of these two commands to update pip itself 
    
@@ -129,13 +131,17 @@ and
     
 * If you chose to install Anaconda vs. Miniconda then you have the Anaconda Navigator.
 
-<img src="stop-sign-png-27231.PNG" alt="Drawing" style="width: 40px; vertical-align:middle"/>  DO NOT OPEN JUPYTER NOTEBOOK/LAB USING ANACONDA NAVIGATOR
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/stop-sign-png-27231.PNG" alt="Drawing" style="width: 40px; vertical-align:middle"/>  
+
+DO NOT OPEN JUPYTER NOTEBOOK/LAB USING ANACONDA NAVIGATOR
+
+<br>
 
 * It is generally considered bad practice to start jupyter notebook from within the Anaconda Navigator. The power of jupyter is it's ability to be deployed in any folder or remote location, starting jupyter notebook using Anaconda Navigator restricts you to the root installation folder and forces you to place all your files inside the root installation folder, in my case this is <i>C:/Users/Drosophila</i> as you can see in the prompt itself. 
 
 * the ideal way to start jupyter is to navigate to the folder where your project is using the Anaconda prompt (command line) and then starting jupyter notebook or jupyter lab as such
 
-<img src="open jupyter 02.JPG" alt="Drawing" style="width: 900px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/open%20jupyter%2002.JPG" alt="Drawing" style="width: 900px;"/>
 
 &nbsp;
 
@@ -158,19 +164,19 @@ Python is more stable when installed on Linux then when installed on Windows. Fo
 * 1-	Search for <b>Turn Windows features on or off</b> in your start menu and when it comes up click it 
 
 
-<img src="turn_on_windows_.jpg" alt="Drawing" style="width: 500px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/turn_on_windows_.jpg" alt="Drawing" style="width: 500px;"/>
 
 * 2-	Check the box for    <b>Windows Subsystem for Linux</b> 
 
-<img src="activate_WSL.PNG" alt="Drawing" style="width: 500px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/activate_WSL.PNG" alt="Drawing" style="width: 500px;"/>
 
 * 3- Open the Microsoft Store and search for your favorite Linux distro
 
-<img src="search_for_linux.jpg" alt="Drawing" style="width: 500px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/search_for_linux.jpg" alt="Drawing" style="width: 500px;"/>
 
 * click the <b>get</b> button
 
-<img src="finding_linux.jpg" alt="Drawing" style="width: 500px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/finding_linux.jpg" alt="Drawing" style="width: 500px;"/>
 
 Follow the prompts for the linux installation, you'll be prompted to set your username and password   
 
@@ -182,7 +188,7 @@ check the weather too while you're at it
 
 `curl wttr.in/chicago`   
 
-<img src="checking_shell.png" alt="Drawing" style="width: 800px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/checking_shell.png" alt="Drawing" style="width: 800px;"/>
 
 welcome to shell
 
@@ -193,7 +199,7 @@ to access your local drives, aka `C:/` `D:/` etc you need to change director int
 &nbsp;
 
 
-<img src="location_of_local_drives.PNG" alt="Drawing" style="width: 800px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/location_of_local_drives.PNG" alt="Drawing" style="width: 800px;"/>
 
 
 to make these easily accessible create aliases in your `~/.bashrc` file that will point to `/mnt/c` or `/mnt/d`
@@ -206,7 +212,7 @@ The link recomended above for [Miniconda](https://docs.conda.io/en/latest/minico
 
 * 1- download the shell file `Miniconda3-latest-Linux-x86_64.sh`
 
-<img src="miniconda3_linux.PNG" alt="Drawing" style="width: 800px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/miniconda3_linux.PNG" alt="Drawing" style="width: 800px;"/>
 
 * 2- navigate to the location of `Miniconda3-latest-Linux-x86_64.sh` and run the command   
 
@@ -214,7 +220,7 @@ The link recomended above for [Miniconda](https://docs.conda.io/en/latest/minico
 
 follow the prompts until the installation is concluded and you're back to your open command prompt. 
 
-<img src="minionda3_shell_install.PNG" alt="Drawing" style="width: 800px;"/>
+<img src="https://github.com/drosophila/step_by_step_python_installation/blob/master/docs/static/minionda3_shell_install.PNG" alt="Drawing" style="width: 800px;"/>
 
 * create a new environment:
     
