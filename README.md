@@ -14,7 +14,9 @@ Table of Contents:
 
 
 
-#### <div class="text-red mb-2">A- Download the executible package</div>   
+<div class="text-red mb-2">
+    <h4>A- Download the executible package</h3>
+</div>   
 
 You can install Python using one of two related sources    
 
